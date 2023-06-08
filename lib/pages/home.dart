@@ -115,7 +115,7 @@ class _HomeState extends State<Home> {
                     todoList.add( _userTodo );
                   });
                   Navigator.of(context).pop();
-                }, child: const Text('Добаавить'))
+                }, child: const Text('Добавить'))
               ],
             );
           });
