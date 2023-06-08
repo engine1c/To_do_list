@@ -1,0 +1,35 @@
+ListView.builder(
+            shrinkWrap: true,
+          // the number of items in the list
+            itemCount: todoList.length,
+
+            // display each item of the product list
+            itemBuilder: (context, index) {
+              return Dismissible(
+                  key: Key( todoList[index]),
+                 child: Card(
+                 // In many cases, the key isn't mandatory
+                key: ValueKey(todoList[index]),
+                   child: ListTile(
+                      title: Text(todoList[index]),
+                   trailing: IconButton(
+                     icon: Icon(
+                     Icons.delete_sweep, color: Colors.lightBlue),
+                     onPressed: () {
+                       setState(() {
+                         todoList.removeAt(index);
+                       });
+                     },
+                   ),
+                 ),
+                 ),
+                   onDismissed:
+                  (direction) {
+                    //if(direction == DismissDirection.endToStart)
+                    setState(() {
+                      todoList.removeAt(index);
+                    });
+                  },
+                );
+            }
+        )

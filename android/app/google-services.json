@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "315355615856",
+    "project_id": "baseshop-21ab6",
+    "storage_bucket": "baseshop-21ab6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315355615856:android:df0a2c548c6e8790789ab5",
+        "android_client_info": {
+          "package_name": "com.example.baseshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "315355615856-qn72s05126v82llqme3u5d48166kjr0p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArRU3dR2gtP0jqOuas37lZlAbAe6Rl7bM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "315355615856-qn72s05126v82llqme3u5d48166kjr0p.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "315355615856-mc2k052mhl150jee2k1did43hf9ocd5u.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.baseshop"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
